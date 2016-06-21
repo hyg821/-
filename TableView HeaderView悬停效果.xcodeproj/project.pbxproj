@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B51ADEF41D193DEC00E6C443 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B51ADEF31D193DEC00E6C443 /* main.m */; };
+		B51ADEF71D193DEC00E6C443 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B51ADEF61D193DEC00E6C443 /* AppDelegate.m */; };
+		B51ADEFA1D193DEC00E6C443 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B51ADEF91D193DEC00E6C443 /* ViewController.m */; };
+		B51ADEFD1D193DEC00E6C443 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51ADEFB1D193DEC00E6C443 /* Main.storyboard */; };
+		B51ADEFF1D193DEC00E6C443 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B51ADEFE1D193DEC00E6C443 /* Assets.xcassets */; };
+		B51ADF021D193DEC00E6C443 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51ADF001D193DEC00E6C443 /* LaunchScreen.storyboard */; };
+		B51ADF0D1D193DEC00E6C443 /* TableView_HeaderView____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B51ADF0C1D193DEC00E6C443 /* TableView_HeaderView____Tests.m */; };
+		B51ADF181D193DEC00E6C443 /* TableView_HeaderView____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B51ADF171D193DEC00E6C443 /* TableView_HeaderView____UITests.m */; };
+		B51ADF271D193E0B00E6C443 /* HYGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B51ADF261D193E0B00E6C443 /* HYGScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B51ADF091D193DEC00E6C443 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B51ADEE71D193DEC00E6C443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B51ADEEE1D193DEC00E6C443;
+			remoteInfo = "TableView HeaderView悬停效果";
+		};
+		B51ADF141D193DEC00E6C443 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B51ADEE71D193DEC00E6C443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B51ADEEE1D193DEC00E6C443;
+			remoteInfo = "TableView HeaderView悬停效果";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B51ADEEF1D193DEC00E6C443 /* TableView HeaderView悬停效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableView HeaderView悬停效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51ADEF31D193DEC00E6C443 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B51ADEF51D193DEC00E6C443 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B51ADEF61D193DEC00E6C443 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B51ADEF81D193DEC00E6C443 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B51ADEF91D193DEC00E6C443 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B51ADEFC1D193DEC00E6C443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B51ADEFE1D193DEC00E6C443 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B51ADF011D193DEC00E6C443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B51ADF031D193DEC00E6C443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B51ADF081D193DEC00E6C443 /* TableView HeaderView悬停效果Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableView HeaderView悬停效果Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51ADF0C1D193DEC00E6C443 /* TableView_HeaderView____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TableView_HeaderView____Tests.m"; sourceTree = "<group>"; };
+		B51ADF0E1D193DEC00E6C443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B51ADF131D193DEC00E6C443 /* TableView HeaderView悬停效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableView HeaderView悬停效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51ADF171D193DEC00E6C443 /* TableView_HeaderView____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TableView_HeaderView____UITests.m"; sourceTree = "<group>"; };
+		B51ADF191D193DEC00E6C443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B51ADF251D193E0B00E6C443 /* HYGScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGScrollView.h; sourceTree = "<group>"; };
+		B51ADF261D193E0B00E6C443 /* HYGScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B51ADEEC1D193DEC00E6C443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51ADF051D193DEC00E6C443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51ADF101D193DEC00E6C443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B51ADEE61D193DEC00E6C443 = {
+			isa = PBXGroup;
+			children = (
+				B51ADEF11D193DEC00E6C443 /* TableView HeaderView悬停效果 */,
+				B51ADF0B1D193DEC00E6C443 /* TableView HeaderView悬停效果Tests */,
+				B51ADF161D193DEC00E6C443 /* TableView HeaderView悬停效果UITests */,
+				B51ADEF01D193DEC00E6C443 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B51ADEF01D193DEC00E6C443 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B51ADEEF1D193DEC00E6C443 /* TableView HeaderView悬停效果.app */,
+				B51ADF081D193DEC00E6C443 /* TableView HeaderView悬停效果Tests.xctest */,
+				B51ADF131D193DEC00E6C443 /* TableView HeaderView悬停效果UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B51ADEF11D193DEC00E6C443 /* TableView HeaderView悬停效果 */ = {
+			isa = PBXGroup;
+			children = (
+				B51ADEF51D193DEC00E6C443 /* AppDelegate.h */,
+				B51ADEF61D193DEC00E6C443 /* AppDelegate.m */,
+				B51ADEF81D193DEC00E6C443 /* ViewController.h */,
+				B51ADEF91D193DEC00E6C443 /* ViewController.m */,
+				B51ADF251D193E0B00E6C443 /* HYGScrollView.h */,
+				B51ADF261D193E0B00E6C443 /* HYGScrollView.m */,
+				B51ADEFB1D193DEC00E6C443 /* Main.storyboard */,
+				B51ADEFE1D193DEC00E6C443 /* Assets.xcassets */,
+				B51ADF001D193DEC00E6C443 /* LaunchScreen.storyboard */,
+				B51ADF031D193DEC00E6C443 /* Info.plist */,
+				B51ADEF21D193DEC00E6C443 /* Supporting Files */,
+			);
+			path = "TableView HeaderView悬停效果";
+			sourceTree = "<group>";
+		};
+		B51ADEF21D193DEC00E6C443 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B51ADEF31D193DEC00E6C443 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B51ADF0B1D193DEC00E6C443 /* TableView HeaderView悬停效果Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B51ADF0C1D193DEC00E6C443 /* TableView_HeaderView____Tests.m */,
+				B51ADF0E1D193DEC00E6C443 /* Info.plist */,
+			);
+			path = "TableView HeaderView悬停效果Tests";
+			sourceTree = "<group>";
+		};
+		B51ADF161D193DEC00E6C443 /* TableView HeaderView悬停效果UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B51ADF171D193DEC00E6C443 /* TableView_HeaderView____UITests.m */,
+				B51ADF191D193DEC00E6C443 /* Info.plist */,
+			);
+			path = "TableView HeaderView悬停效果UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B51ADEEE1D193DEC00E6C443 /* TableView HeaderView悬停效果 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51ADF1C1D193DEC00E6C443 /* Build configuration list for PBXNativeTarget "TableView HeaderView悬停效果" */;
+			buildPhases = (
+				B51ADEEB1D193DEC00E6C443 /* Sources */,
+				B51ADEEC1D193DEC00E6C443 /* Frameworks */,
+				B51ADEED1D193DEC00E6C443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TableView HeaderView悬停效果";
+			productName = "TableView HeaderView悬停效果";
+			productReference = B51ADEEF1D193DEC00E6C443 /* TableView HeaderView悬停效果.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B51ADF071D193DEC00E6C443 /* TableView HeaderView悬停效果Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51ADF1F1D193DEC00E6C443 /* Build configuration list for PBXNativeTarget "TableView HeaderView悬停效果Tests" */;
+			buildPhases = (
+				B51ADF041D193DEC00E6C443 /* Sources */,
+				B51ADF051D193DEC00E6C443 /* Frameworks */,
+				B51ADF061D193DEC00E6C443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B51ADF0A1D193DEC00E6C443 /* PBXTargetDependency */,
+			);
+			name = "TableView HeaderView悬停效果Tests";
+			productName = "TableView HeaderView悬停效果Tests";
+			productReference = B51ADF081D193DEC00E6C443 /* TableView HeaderView悬停效果Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B51ADF121D193DEC00E6C443 /* TableView HeaderView悬停效果UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51ADF221D193DEC00E6C443 /* Build configuration list for PBXNativeTarget "TableView HeaderView悬停效果UITests" */;
+			buildPhases = (
+				B51ADF0F1D193DEC00E6C443 /* Sources */,
+				B51ADF101D193DEC00E6C443 /* Frameworks */,
+				B51ADF111D193DEC00E6C443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B51ADF151D193DEC00E6C443 /* PBXTargetDependency */,
+			);
+			name = "TableView HeaderView悬停效果UITests";
+			productName = "TableView HeaderView悬停效果UITests";
+			productReference = B51ADF131D193DEC00E6C443 /* TableView HeaderView悬停效果UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B51ADEE71D193DEC00E6C443 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "侯英格";
+				TargetAttributes = {
+					B51ADEEE1D193DEC00E6C443 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B51ADF071D193DEC00E6C443 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B51ADEEE1D193DEC00E6C443;
+					};
+					B51ADF121D193DEC00E6C443 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B51ADEEE1D193DEC00E6C443;
+					};
+				};
+			};
+			buildConfigurationList = B51ADEEA1D193DEC00E6C443 /* Build configuration list for PBXProject "TableView HeaderView悬停效果" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B51ADEE61D193DEC00E6C443;
+			productRefGroup = B51ADEF01D193DEC00E6C443 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B51ADEEE1D193DEC00E6C443 /* TableView HeaderView悬停效果 */,
+				B51ADF071D193DEC00E6C443 /* TableView HeaderView悬停效果Tests */,
+				B51ADF121D193DEC00E6C443 /* TableView HeaderView悬停效果UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B51ADEED1D193DEC00E6C443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51ADF021D193DEC00E6C443 /* LaunchScreen.storyboard in Resources */,
+				B51ADEFF1D193DEC00E6C443 /* Assets.xcassets in Resources */,
+				B51ADEFD1D193DEC00E6C443 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51ADF061D193DEC00E6C443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51ADF111D193DEC00E6C443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B51ADEEB1D193DEC00E6C443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51ADF271D193E0B00E6C443 /* HYGScrollView.m in Sources */,
+				B51ADEFA1D193DEC00E6C443 /* ViewController.m in Sources */,
+				B51ADEF71D193DEC00E6C443 /* AppDelegate.m in Sources */,
+				B51ADEF41D193DEC00E6C443 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51ADF041D193DEC00E6C443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51ADF0D1D193DEC00E6C443 /* TableView_HeaderView____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51ADF0F1D193DEC00E6C443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51ADF181D193DEC00E6C443 /* TableView_HeaderView____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B51ADF0A1D193DEC00E6C443 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B51ADEEE1D193DEC00E6C443 /* TableView HeaderView悬停效果 */;
+			targetProxy = B51ADF091D193DEC00E6C443 /* PBXContainerItemProxy */;
+		};
+		B51ADF151D193DEC00E6C443 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B51ADEEE1D193DEC00E6C443 /* TableView HeaderView悬停效果 */;
+			targetProxy = B51ADF141D193DEC00E6C443 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B51ADEFB1D193DEC00E6C443 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B51ADEFC1D193DEC00E6C443 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B51ADF001D193DEC00E6C443 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B51ADF011D193DEC00E6C443 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B51ADF1A1D193DEC00E6C443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B51ADF1B1D193DEC00E6C443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B51ADF1D1D193DEC00E6C443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TableView HeaderView悬停效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyg.TableView-HeaderView----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B51ADF1E1D193DEC00E6C443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TableView HeaderView悬停效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyg.TableView-HeaderView----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B51ADF201D193DEC00E6C443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TableView HeaderView悬停效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyg.TableView-HeaderView----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableView HeaderView悬停效果.app/TableView HeaderView悬停效果";
+			};
+			name = Debug;
+		};
+		B51ADF211D193DEC00E6C443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TableView HeaderView悬停效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyg.TableView-HeaderView----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableView HeaderView悬停效果.app/TableView HeaderView悬停效果";
+			};
+			name = Release;
+		};
+		B51ADF231D193DEC00E6C443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TableView HeaderView悬停效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyg.TableView-HeaderView----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TableView HeaderView悬停效果";
+			};
+			name = Debug;
+		};
+		B51ADF241D193DEC00E6C443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TableView HeaderView悬停效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyg.TableView-HeaderView----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TableView HeaderView悬停效果";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B51ADEEA1D193DEC00E6C443 /* Build configuration list for PBXProject "TableView HeaderView悬停效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51ADF1A1D193DEC00E6C443 /* Debug */,
+				B51ADF1B1D193DEC00E6C443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B51ADF1C1D193DEC00E6C443 /* Build configuration list for PBXNativeTarget "TableView HeaderView悬停效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51ADF1D1D193DEC00E6C443 /* Debug */,
+				B51ADF1E1D193DEC00E6C443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B51ADF1F1D193DEC00E6C443 /* Build configuration list for PBXNativeTarget "TableView HeaderView悬停效果Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51ADF201D193DEC00E6C443 /* Debug */,
+				B51ADF211D193DEC00E6C443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B51ADF221D193DEC00E6C443 /* Build configuration list for PBXNativeTarget "TableView HeaderView悬停效果UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51ADF231D193DEC00E6C443 /* Debug */,
+				B51ADF241D193DEC00E6C443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B51ADEE71D193DEC00E6C443 /* Project object */;
+}
