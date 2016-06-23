@@ -17,7 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.automaticallyAdjustsScrollViewInsets=YES;
+    
     HYGScrollView*scrollView=[HYGScrollView new];
+    scrollView.tag=10;
     [scrollView setNeedKnowDiretion];
     scrollView.frame=self.view.frame;
     scrollView.contentSize=CGSizeMake(self.view.frame.size.width, 4000);
@@ -49,29 +53,47 @@
     
     HYGScrollView*sv=(HYGScrollView*)scrollView;
     
+    
+    CGFloat autoOffSetY;
+    CGFloat autoOverallOffSetY;
+    if (self.navigationController.navigationBar.hidden==NO&&self.automaticallyAdjustsScrollViewInsets==YES) {
+        autoOffSetY=scrollView.contentInset.top;
+        autoOverallOffSetY=autoOffSetY+scrollView.contentOffset.y;
+    }else{
+        autoOffSetY=0;
+        autoOverallOffSetY=scrollView.contentOffset.y;
+    }
+    
+    
+    
     //如果滚动条是向下的
     if (sv.diretion==UIScrollViewScrolltoDown) {
         //如果topView在屏幕坐标系的位置<=0 这个位置是需要调整的 也就是说想在哪悬停 就把0改成多少
-        if (rect.origin.y<=0) {
+        if (rect.origin.y<=autoOffSetY) {
             //那么 topView 就随着scrollview一起滚动 才能保证悬停
-            view.frame=CGRectMake(0, scrollView.contentOffset.y,view.frame.size.width,view.frame.size.height);
+            view.frame=CGRectMake(0, scrollView.contentOffset.y+autoOffSetY,view.frame.size.width,view.frame.size.height);
         }
     }
     //如果滚动条是向上的 就会出现两种情况
     else{
         //第一种是 topView到达了原来的位置
-        if (scrollView.contentOffset.y<=self.xxxx) {
-            view.frame=CGRectMake(0, 500, self.view.frame.size.width, view.frame.size.height);
+        if (autoOverallOffSetY<=self.xxxx) {
+            view.frame=CGRectMake(0, self.xxxx, self.view.frame.size.width, view.frame.size.height);
         }
         //第二种是 topView还没有到达原来的位置的时候
         else{
-            view.frame=CGRectMake(0,scrollView.contentOffset.y,view.frame.size.width, view.frame.size.height);
+            view.frame=CGRectMake(0,scrollView.contentOffset.y+autoOffSetY,view.frame.size.width, view.frame.size.height);
         }
     }
     
     
 }
 
+
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    HYGScrollView*sv=(HYGScrollView*)[self.view viewWithTag:10];
+}
 
 
 @end
