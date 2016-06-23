@@ -10,12 +10,12 @@
 		B51ADEF41D193DEC00E6C443 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B51ADEF31D193DEC00E6C443 /* main.m */; };
 		B51ADEF71D193DEC00E6C443 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B51ADEF61D193DEC00E6C443 /* AppDelegate.m */; };
 		B51ADEFA1D193DEC00E6C443 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B51ADEF91D193DEC00E6C443 /* ViewController.m */; };
-		B51ADEFD1D193DEC00E6C443 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51ADEFB1D193DEC00E6C443 /* Main.storyboard */; };
 		B51ADEFF1D193DEC00E6C443 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B51ADEFE1D193DEC00E6C443 /* Assets.xcassets */; };
 		B51ADF021D193DEC00E6C443 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51ADF001D193DEC00E6C443 /* LaunchScreen.storyboard */; };
 		B51ADF0D1D193DEC00E6C443 /* TableView_HeaderView____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B51ADF0C1D193DEC00E6C443 /* TableView_HeaderView____Tests.m */; };
 		B51ADF181D193DEC00E6C443 /* TableView_HeaderView____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B51ADF171D193DEC00E6C443 /* TableView_HeaderView____UITests.m */; };
 		B51ADF271D193E0B00E6C443 /* HYGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B51ADF261D193E0B00E6C443 /* HYGScrollView.m */; };
+		B57FC5211D1B7B3B006228F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57FC5201D1B7B3B006228F4 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +42,6 @@
 		B51ADEF61D193DEC00E6C443 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B51ADEF81D193DEC00E6C443 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B51ADEF91D193DEC00E6C443 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B51ADEFC1D193DEC00E6C443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B51ADEFE1D193DEC00E6C443 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B51ADF011D193DEC00E6C443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B51ADF031D193DEC00E6C443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +53,7 @@
 		B51ADF191D193DEC00E6C443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B51ADF251D193E0B00E6C443 /* HYGScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGScrollView.h; sourceTree = "<group>"; };
 		B51ADF261D193E0B00E6C443 /* HYGScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGScrollView.m; sourceTree = "<group>"; };
+		B57FC5201D1B7B3B006228F4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +110,7 @@
 				B51ADEF91D193DEC00E6C443 /* ViewController.m */,
 				B51ADF251D193E0B00E6C443 /* HYGScrollView.h */,
 				B51ADF261D193E0B00E6C443 /* HYGScrollView.m */,
-				B51ADEFB1D193DEC00E6C443 /* Main.storyboard */,
+				B57FC5201D1B7B3B006228F4 /* Main.storyboard */,
 				B51ADEFE1D193DEC00E6C443 /* Assets.xcassets */,
 				B51ADF001D193DEC00E6C443 /* LaunchScreen.storyboard */,
 				B51ADF031D193DEC00E6C443 /* Info.plist */,
@@ -248,9 +248,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B57FC5211D1B7B3B006228F4 /* Main.storyboard in Resources */,
 				B51ADF021D193DEC00E6C443 /* LaunchScreen.storyboard in Resources */,
 				B51ADEFF1D193DEC00E6C443 /* Assets.xcassets in Resources */,
-				B51ADEFD1D193DEC00E6C443 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +314,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B51ADEFB1D193DEC00E6C443 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B51ADEFC1D193DEC00E6C443 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B51ADF001D193DEC00E6C443 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -504,6 +496,7 @@
 				B51ADF1E1D193DEC00E6C443 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B51ADF1F1D193DEC00E6C443 /* Build configuration list for PBXNativeTarget "TableView HeaderView悬停效果Tests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +505,7 @@
 				B51ADF211D193DEC00E6C443 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B51ADF221D193DEC00E6C443 /* Build configuration list for PBXNativeTarget "TableView HeaderView悬停效果UITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +514,7 @@
 				B51ADF241D193DEC00E6C443 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
