@@ -85,14 +85,6 @@
             view.frame=CGRectMake(0,scrollView.contentOffset.y+autoOffSetY,view.frame.size.width, view.frame.size.height);
         }
     }
-    
-    
-}
-
-
--(void)viewDidAppear:(BOOL)animated{
-    [super viewDidAppear:animated];
-    HYGScrollView*sv=(HYGScrollView*)[self.view viewWithTag:10];
 }
 
 
